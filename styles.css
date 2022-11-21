@@ -136,12 +136,12 @@ nav {
 
 .arrowF,
 .arrowS {
-  background-image: url(/images/icon-arrow-down.svg);
+  background-image: url(images/icon-arrow-down.svg);
 }
 
 .arrowdownF,
 .arrowdownS {
-  background-image: url(/images/icon-arrow-up.svg);
+  background-image: url(images/icon-arrow-up.svg);
 }
 
 .insideDropdownF,

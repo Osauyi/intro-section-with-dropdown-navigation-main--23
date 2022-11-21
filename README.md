@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/Osauyi/intro-section-with-dropdown-navigation-main--23.git]
+- Live Site URL: [https://osauyi.github.io/intro-section-with-dropdown-navigation-main--23/]
 
 ## My process
 
