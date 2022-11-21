@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <img class="Logo" src="images/logo.svg" alt="logo" />
+        <img
+          class="openMenu"
+          onclick="OpenMenu()"
+          src="images/icon-menu.svg"
+          alt="menuicon"
+        />
+        <div class="Menu">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()"
+            ><img
+              class="closeMenu"
+              src="images/icon-close-menu.svg"
+              alt="close image"
+          /></a>
+          <div class="Menucontent">
+            <div class="dropdownF">
+              <div class="dropdowntext firstdropdown">
+                Features
+                <div class="arrowF"></div>
+              </div>
+              <div class="dropdownContent">
+                <div class="insideDropdownF">
+                  <a href="#"
+                    ><img
+                      class="thingsImg"
+                      src="images/icon-todo.svg"
+                      alt="todo icon"
+                    />
+                    Todo List</a
+                  >
+                  <a href="#"
+                    ><img
+                      class="thingsImg"
+                      src="images/icon-calendar.svg"
+                      alt="Calendar icon"
+                    />
+                    Calendar</a
+                  >
+                  <a href="#"
+                    ><img
+                      class="thingsImg"
+                      src="images/icon-reminders.svg"
+                      alt="reminder icon"
+                    />
+                    Reminders</a
+                  >
+                  <a href="#"
+                    ><img
+                      class="thingsImg"
+                      src="images/icon-planning.svg"
+                      alt="planning icon"
+                    />
+                    Planning</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="dropdownC">
+              <div class="dropdowntext seconddropdown">
+                Company
+                <div class="arrowS"></div>
+              </div>
+              <div class="dropdownContent">
+                <div class="insidedropdownc">
+                  <a href="#">History</a>
+                  <a href="#">Our Team</a>
+                  <a href="#">Blog</a>
+                </div>
+              </div>
+            </div>
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+
+            <div class="user">
+              <div class="userBox">
+                <button class="login">Login</button>
+                <button class="register">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="backgroundImage"></div>
+        <div class="bodytext">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="learnmore">Learn more</button>
+          <div class="sponsorsImage">
+            <img
+              class="sponsorlogo"
+              src="images/client-databiz.svg"
+              alt="sponsor logo"
+            />
+            <img
+              class="sponsorlogo audio"
+              src="images/client-audiophile.svg"
+              alt="sponsor logo"
+            />
+            <img
+              class="sponsorlogo"
+              src="images/client-meet.svg"
+              alt="sponsor logo"
+            />
+            <img
+              class="sponsorlogo"
+              src="images/client-maker.svg"
+              alt="sponsor logo"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Osauyi</a>.
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
